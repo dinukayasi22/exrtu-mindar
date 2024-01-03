@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #6497b1;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Center the logo horizontally */
+}
+
+.submit-button {
+  background-color: #6497b1;
+  color: #fff;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size:16px;
+  transition: background-color 0.3s ease;
+  margin-top:40px;
+  width:30%;
+}
+
+.submit-button:hover {
+  background-color: darkblue;
+}
+.img{width:50%;}
